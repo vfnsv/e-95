@@ -344,6 +344,7 @@
   border-radius: 20px;
   border-color: white;
   z-index: 1;
+  display: inline-block;
 }
 
 .figure1 {
@@ -354,6 +355,7 @@
   top: -175px;
   left: 340px;
   border-radius: 100%;
+  display: inline-block;
 }
 
 .figure2-cirle {
@@ -382,7 +384,7 @@
     left: 920px;
     top: -1196px;
     transform: rotate(315deg);
-  display: inline-block;
+    display: inline-block;
 }
 
 .block3-text {
