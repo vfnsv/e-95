@@ -1,0 +1,181 @@
+/* 
+ Обнуление,сброс всех стилей
+*/
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+/* Левая картинка */
+.picture-left {
+    position: relative;
+    width: 1439px;
+    height: 1167px;
+    left: 0px;
+    top: 190px;
+}
+
+/* Правая картинка */
+.picture-right {
+    position: absolute;
+    width: 385.2px;
+    height: 550px;
+    left: 334.56px;
+    top: 190px;
+}
+
+/* Прямоугольник на правой картинке */
+.rectangle {
+    position: absolute;
+    height: 120px;
+    left: 25%;
+    right: 16.33%;
+    top: 535px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 350px;
+    border-radius: 15px;
+    padding-left: 95px;
+}
+
+.text {
+    position: absolute;
+    width: 374px;
+    height: 124px;
+    left: 1200px;
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 62px;
+    /* or 148% */
+
+    letter-spacing: 0.8px;
+
+    color: #323232;
+}
+
+/* We provide best space for you ! */
+.text2 {
+    position: absolute;
+    width: 374px;
+    height: 81px;
+    left: 1200px;
+    top: 400px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 169% */
+
+    letter-spacing: 1.15px;
+
+    color: #323232;
+}
+
+/* quid aut ad id omnia referri oporteat,
+ipsum autem nusquam hoc epicurus in ea commodi consequatur? */
+.text3 {
+    position: absolute;
+    width: 374px;
+    height: 81px;
+    left: 1200px;
+    top: 500px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    letter-spacing: 1.15px;
+
+    color: #323232;
+}
+
+/* Space for up to 150 people */
+.text4 {
+    position: absolute;
+    left: 568px;
+    right: 500px;
+    top: 585px;
+    bottom: 22.7%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    letter-spacing: 1.15px;
+
+    color: #323232;
+}
+
+.house {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 500px;
+    right: 10px;
+    top: 570px;
+    bottom: 40px;
+    padding-left: 13.5px;
+    padding-top: 11px;
+    border-radius: 50px;
+
+    background: rgba(88, 190, 191, 0.2);
+}
+
+.Button {
+    background-color: #F78434;
+    border-radius: 29px;
+    border: 1px solid #F78434;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 41px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #F78434;
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 860px;
+    top: 500px;
+}
+
+.Button:hover {
+    background-color: #eda41d;
+}
+
+.Button:active {
+    position: relative;
+    top: 0px;
+}
