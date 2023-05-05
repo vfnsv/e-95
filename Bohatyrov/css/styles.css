@@ -504,6 +504,7 @@ border-radius:1.5px
     justify-content:center;
     font-weight: 700;
     font-size: 70px;
+    margin-top: 128px;
 }
 .desc_serve{
     display: flex;
@@ -511,40 +512,41 @@ border-radius:1.5px
     font-size: 27px;
 }
 .buyers_sellers_tab{
+    max-width: 1080px;
+    max-height: 365px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
 .rectangle_tab_b{
-position: absolute;
-margin-left: 1000px;
+position: relative;
 height: 365px;
 width: 540px;
 border-radius: 10px;
 background: #F78434;
+display: inline-block;
 }
 .rectangle_tab_s{
 position: absolute;
-margin-left: 50.6%;
+left: 50.6%;
 height: 365px;
 width: 540px;
 border-radius: 10px;
 background: #FFFFFF;
+display: inline-block;
 }
 .dollar_img{
-    display: flex;
-    justify-content: center;
+    margin-left: 259px;
     margin-top: 40px;
 }
 .house_img{
-        display: flex;
-    justify-content: center;
+        margin-left: 235px;
 }
 .underline_img{
-    display: flex;
-    justify-content: center;
+    margin-left: 235px;
 }
 .tittle_buyer_tab{
-        display: flex;
-    justify-content: center;
+    margin-left: 193px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -563,10 +565,7 @@ background: #FFFFFF;
     text-align: center;
 }
 .get_started{
-position:absolute;
-display:flex;
-align-items:center;
-justify-content:center;
+margin-left: 184px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -580,8 +579,7 @@ margin-left: 180px;
 margin-top: 25px;
 }
 .tittle_seller_tab{
-        display: flex;
-    justify-content: center;
+    margin-left: 209px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -593,7 +591,6 @@ margin-top: 25px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-
     margin-right: auto;
     margin-left: auto;
     width: 400px;
@@ -601,18 +598,206 @@ margin-top: 25px;
 }
 
 .sale_sign{
-    display: flex;
-    justify-content: center;
+margin-left: 235px;
     margin-top: 40px;
 }
 .sale_text{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: -57px;
+    margin-left: 248px;
+    margin-top: -60px;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 900;
-font-size: 18px;
+font-size: 21px;
 color: #F78434;
+}
+.tittle_why_choose_us{
+    display: flex;
+    justify-content:center;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 128px;
+}
+.quality_images{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.imgs_row{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -90px;
+  margin-right: -90px;
+}
+.footer_pow{
+position: relative;
+display: flex;
+width: 1440px;
+height: 375px;
+top: 4625px;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+}
+.About_cut{
+    margin-top: 86px;
+    margin-left: 159px;
+}
+.privacy_text{
+    max-width: 147px;
+    max-height: 197px;
+    margin-left: 224px;
+    margin-top: 96px;
+}
+.privacy_tittle{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: 0.5px;   
+}
+.desc_forPrivacy1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+}
+.desc_forPrivacy2{
+    display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.desc_forPrivacy3{
+    display: flex;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.desc_forPrivacy4{
+    display: flex;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+
+.legal_text{
+    max-width: 136px;
+    max-height: 197px;
+    margin-left: 147px;
+    margin-top: 96px;
+}
+.legal_tittle{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: 0.5px;   
+}
+.desc_forlegal1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+}
+.desc_forlegal2{
+    display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.desc_forlegal3{
+    display: flex;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.desc_forlegal4{
+    display: flex;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+
+.contact_text{
+    max-width: 134px;
+    max-height: 157px;
+    margin-left: 90px;
+    margin-top: 96px;
+}
+.contact_tittle{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: 0.5px;   
+}
+.desc_forcontact1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+}
+.desc_forcontact2{
+    display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.desc_forcontact3{
+    display: flex;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0.5px;
+margin-top: 13px;
 }
