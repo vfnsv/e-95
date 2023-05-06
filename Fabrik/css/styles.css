@@ -321,3 +321,141 @@
 .learnMore-button:hover {
   background-color: #ff6a00;
 }
+
+.general-block {
+  height: 464px;
+  width: 1110px;
+  background-color: #58BEBF;
+  left: 125px;
+  top: 145px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.top-rated {
+  height: 540px;
+  width: 746px;
+  position: relative;
+  left: -220px;
+  top: 85px;
+  border: solid ;
+  border-width: 25px;
+  border-radius: 20px;
+  border-color: white;
+  z-index: 1;
+}
+
+.figure1 {
+  height: 304px;
+  width: 304px;
+  background-color: rgba(255, 255, 255, 0.5273);
+  position: relative;
+  top: -175px;
+  left: 340px;
+  border-radius: 100%;
+}
+
+.figure2-cirle {
+  height: 304px;
+  width: 304px;
+  position: relative;
+  top: -940px;
+  left: 860px;
+  /* background-color: rgba(255, 255, 255, 0.5028); */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+  border-radius: 100%;
+  display: block;
+}
+
+.figure2-general { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width:100px 100px 100px 100px;
+    border-top-color:  transparent;
+    border-left-color:rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    position: relative ;
+    border-radius: 100%;
+    left: 920px;
+    top: -1196px;
+    transform: rotate(315deg);
+  display: inline-block;
+}
+
+.block3-text {
+  top: -1245px;
+  left: 640px;
+  position: relative;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.block3-text-general{
+  font-size: 42px;
+  margin-bottom: 20px;
+  width: 342px;
+}
+
+.block3-text-second{
+  width: 325px;
+}
+
+.contactUs-button{
+  background-color: #F78434;
+  border-radius: 29px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #F78434;
+  position: relative; 
+  width: 180px;
+  height: 58px;
+  left: 640px;
+  top: -1220px;
+}
+
+.wotchNow-button{
+  background-color: #ffffff;
+  border-radius: 29px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  position: relative; 
+  width: 180px;
+  height: 58px;
+  left: 650px;
+  top: -1220px;
+}
+
+.arrow{
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 15px 7px 0px 7px;
+  border-color: #F78434 transparent;
+  position: relative ;
+  left: 492px;
+  top: -1218px;
+  transform: rotate(270deg);
+  display: inline-block;
+}
+
+.contactUs-button:hover {
+  background-color: #ff6a00;
+}
+
+.wotchNow-button:hover {
+  background-color: #e3e3e3;
+}
