@@ -601,3 +601,172 @@
 .get-started-button2:hover {
   background-color: #ff6a00;
 }
+
+.footer_pow{
+  position: relative;
+  display: flex;
+  width: 1440px;
+  height: 375px;
+  left: 159px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  }
+  .About_cut{
+      margin-top: 86px;
+      margin-left: 159px;
+  }
+  .privacy_text{
+    max-width: 147px;
+    max-height: 197px;
+    margin-left: 224px;
+  }
+  .privacy_tittle{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;   
+  }
+  .desc_forPrivacy1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  }
+  .desc_forPrivacy2{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  .desc_forPrivacy3{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  .desc_forPrivacy4{
+    display: flex;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  
+  .legal_text{
+    max-width: 136px;
+    max-height: 197px;
+    margin-left: 147px;
+  }
+  .legal_tittle{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;   
+  }
+  .desc_forlegal1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  }
+  .desc_forlegal2{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  .desc_forlegal3{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  .desc_forlegal4{
+    display: flex;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  
+  .contact_text{
+    max-width: 134px;
+    max-height: 157px;
+    margin-left: 90px;
+  }
+  .contact_tittle{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;   
+  }
+  .desc_forcontact1{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  }
+  .desc_forcontact2{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
+  .desc_forcontact3{
+    display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  margin-top: 13px;
+  }
