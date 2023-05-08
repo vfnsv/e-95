@@ -602,3 +602,84 @@
 .get-started-button2:hover {
   background-color: #ff6a00;
 }
+
+.footer-logo{
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  top: -165px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left-text {
+  width: 300px;
+  height: 54px;
+  position: relative;
+  top: -150px;
+  left: 200px;
+}
+
+.popular-sites{
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: -100px;
+  left: 200px;
+}
+
+.twiter {
+  margin-left: 20px;
+}
+.youtube {
+  margin-left: 20px;
+}
+
+.linkedin {
+  margin-left: 20px;
+}
+
+.general-footer-text{
+  display: inline-block;
+}
+
+.privacy-text{
+  position: relative;
+  top: -270px;
+  left: 800px;
+  width: 147px;
+  line-height:1.5;
+}
+
+.legal-text {
+  position: relative;
+  top: -506px;
+  left: 1020px;
+  width: 146px;
+  line-height:1.5;
+
+}
+
+.contact-text{
+  position: relative;
+  top: -718px;
+  left: 1235px;
+  width: 134px;
+  line-height:1.5;
+}
+
+.forPrivacy1 {
+ margin-top:  20px;
+}
+
+.forlegal1 {
+  margin-top:  20px;
+ }
+
+ .forcontact11 {
+  margin-top:  20px;
+ }
