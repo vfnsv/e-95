@@ -629,7 +629,6 @@ position: relative;
 display: flex;
 width: 1440px;
 height: 375px;
-top: 4625px;
 margin-left: auto;
 margin-right: auto;
 background-color: #FFFFFF;
@@ -991,4 +990,67 @@ letter-spacing: 1.15px;
 color: #58BEBF;
 margin-left: 29px;
 margin-top: 163px;
+}
+.get_exp{
+    display: flex;
+    max-height: 492px;
+    max-width: 1440px;
+    margin-left: auto;
+margin-right: auto;
+margin-top: 597px;
+}
+.square_modified{
+height: 492px;
+width: 1440px;
+top: 55px;
+border-radius: 0px;
+background: #58BEBF;
+clip-path: polygon(0 17%, 100% 4%, 100% 100%, 0% 100%);
+}
+.get_exTittle{
+position: absolute;
+margin-top: 130px;
+margin-left: 165px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 62px;
+letter-spacing: 0.8px;
+max-width: 359px;
+color: #FFFFFF;
+}
+.get_exDesc{
+    position: absolute;
+    max-width: 324px;
+    margin-top: 270px;
+    margin-left: 165px;
+    color: #FFFFFF;
+}
+.contact_us1{
+position:absolute;
+display:flex;
+align-items:center;
+justify-content:center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #323232;
+width: 180px;
+height: 58px;
+border-radius: 40px;
+background-color: #FFFFFF;
+margin-top: 360px;
+margin-left: 150px ;
+}
+.barelyVisibleCircle{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 125px;
+}
+.smilingWoman{
+position: absolute;
+margin-left: 698px;
+margin-top: -55px;
 }
